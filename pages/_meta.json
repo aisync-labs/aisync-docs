@@ -1,15 +1,21 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "ignite-ai-feeder-program": "IgniteAI Feeder Program",
+  "scoring-and-incentive-mechanism": "Scoring and Incentive Mechanism",
+  "-- Tokenomics": {
+    "type": "separator",
+    "title": "Tokenomics"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
-  }
+  "ais": "$AIS",
+  "-- Our Protocol": {
+    "type": "separator",
+    "title": "Our Protocol"
+  },
+  "white-paper": "White paper",
+  
+  "-- More": {
+    "type": "separator",
+    "title": "More"
+  },
+  "links": "Links"
 }

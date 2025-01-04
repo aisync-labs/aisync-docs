@@ -1,0 +1,45 @@
+## Core Features & Architecture
+
+### Key Features
+
+1. **Unified Identity and Wallet System**  
+   Bind Solana/EVM addresses, CEX API Keys, etc., facilitating the automatic collection and reconciliation of multi-source data.
+
+2. **Scoring & Points Mechanism**  
+   Comprehensive scoring based on historical trading performance, quality of analysis in multiple interactions, and community contributions.
+
+3. **Agent Automation**  
+   Decentralized Agents can automate trading on Solana or run on centralized servers with integrated risk controls.
+
+4. **Agent Marketplace**  
+   Allows Agent developers to sell or rent their Agent services to other users; displays quantitative metrics such as transaction yield, maximum drawdown, and Sharpe ratio.
+
+5. **Multi-Source Data Integration**  
+   Integration of decentralized and centralized exchange data APIs, historical market data, and social media data.
+
+---
+
+### High-Level Architecture
+
+```plaintext
+ ┌────────────────────────────────────────────────┐
+ │   Front-End Layer (React/Vue/Next.js, etc.)    │
+ └────────────────────────────────────────────────┘
+ ┌────────────────────────────────────────────────┐
+ │    Application Layer (Node.js / NestJS)        │
+ │  - User Management, Scoring, Agent APIs        │
+ └────────────────────────────────────────────────┘
+ ┌────────────────────────────────────────────────┐
+ │     AI Layer (Python / PyTorch / TensorFlow)   │
+ │  - Training frameworks (RL, SL, AutoML, etc.)  │
+ │  - Agent model management & fine-tuning        │
+ └────────────────────────────────────────────────┘
+ ┌────────────────────────────────────────────────┐
+ │               Data Layer                       │
+ │  - Solana On-Chain Data                        │
+ │  - CEX Data (Binance, etc.)                    │
+ │  - Additional Business/Research Data           │
+ └────────────────────────────────────────────────┘
+```
+
+---

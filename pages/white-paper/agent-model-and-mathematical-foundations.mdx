@@ -1,0 +1,59 @@
+# Agent Model and Algorithm Architecture
+
+To ensure that the Agents constructed on our platform exhibit sufficient robustness and adaptability in various environments, we employ a combination of Multi-Agent Reinforcement Learning (MARL) and deep learning technologies.
+We utilize a series of cutting-edge mathematical models and algorithms to ensure that Agents perform exceptionally well and adapt to dynamic environments. Here are detailed introductions to the core technologies:
+
+## Complex Reinforcement Learning Framework
+
+- To enable Agents to make effective decisions in highly uncertain environments, we employ deep reinforcement learning methods based on graph neural networks.
+- Model structure:
+
+![](/model_structure.png)
+
+
+Where 𝑆  represents the state space, 𝐴  the action space, and 𝜋 𝜃 ​ the policy network parameterized by the graph neural network. This approach significantly improves the quality of state representation, allowing the policy network to more accurately reflect the complexities of the environment
+
+## Advanced Multi-Agent Cooperative Learning
+
+- In multi-agent systems, we introduce game theory models, specifically the Stackelberg game, to handle the leader-follower dynamics between Agents.
+- Core formula:
+
+![](/core_formula.png)
+
+Where ui ​is the utility function of the i-th agent, ri is the immediate reward, γ the discount factor, P the state transition probability, and Vi the value function of the agent. Through this method, Agents not only learn to optimize individual strategies but also effectively cooperate in a multi-agent environment.
+
+## Deep Deterministic Policy Gradient (DDPG)
+
+- We further integrate the Deep Deterministic Policy Gradient (DDPG) algorithm to address problems in continuous action spaces.
+- Update formula:
+
+![](/ddpg.png)
+
+This formula optimizes the policy network μ through gradient ascent to maximize the action value function Q, where θμ and θQ​ are the parameters of the policy network and value network, respectively.
+
+## Advanced Sequence Modeling
+
+- To understand and predict the sequence of Agent behaviors in complex scenarios, we employ a hybrid model based on Variational Autoencoders (VAE) and Recurrent Neural Networks (RNN).
+- In this model:
+
+![](/asm.png)
+
+zt​ is a latent variable sampled from a Gaussian distribution, representing the hidden representation of the current state st​; f is the state transition function of the RNN model, used to predict the next state st+1​.
+
+Through these algorithms and models, the platform supports effective learning and decision-making by Agents across various tasks and environments, facilitating the broad deployment and optimization of Agents in real-world applications.
+
+## Integration of Transformer Models
+
+The Transformer architecture, primarily based on the Self-Attention mechanism, replaces traditional Recurrent Neural Networks (RNNs) enabling the model to process input data in parallel, significantly enhancing training efficiency. This architecture includes multiple Multi-Head Attention layers, which concurrently handle various relationships within the data, deepening the model's comprehension of input. 
+The core representation is as follows:
+
+![](/transformer.png)
+
+Where Q, K, and V represent the Query, Key, and Value matrices, respectively, with dk​ denoting the dimension of the key. Transformers, by training on large datasets, have mastered deep linguistic semantics and syntactic structures. In the field of Natural Language Processing (NLP), Transformers effectively perform semantic analysis and text generation. Additionally, the model's output is processed in a serialized manner through Layer Normalization and Feed-Forward Neural Networks layers, enhancing the model's stability and learning capabilities.
+
+On our platform, the Transformer model is integrated with Reinforcement Learning (RL) and Deep Learning (DL) models to create a robust decision-support system. This integration allows agents not only to understand complex input sequences but also to optimize themselves based on environmental feedback. The strategy optimization combining Q-learning and Transformers can be represented as:
+
+![](/transformer_2.png)
+
+Through these algorithms and models, the platform supports effective learning and decision-making by Agents across various tasks and environments, facilitating the broad deployment and optimization of Agents in real-world applications.
+
