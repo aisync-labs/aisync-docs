@@ -27,13 +27,13 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/aisync-labs',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.com/invite/7rh6uewA',
   },
   docsRepositoryBase: 'https://github.com/aisync-labs/aisync-docs',
   footer: {
     text: (
       <span>
-        {new Date().getFullYear()} © <a href="https://aisync.world" target="_blank">AISYNC</a>
+        {new Date().getFullYear()} © <a href="https://www.aisync.world" target="_blank">AISYNC</a>
       </span>
     )
   },
