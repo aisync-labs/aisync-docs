@@ -1,6 +1,6 @@
 {
   "index": "Introduction",
-  "ignite-ai-feeder-program": "IgniteAI Feeder Program",
+  "feeder-program": "Feeder Program",
   "scoring-and-incentive-mechanism": "Scoring and Incentive Mechanism",
   "-- Tokenomics": {
     "type": "separator",
