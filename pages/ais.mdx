@@ -2,9 +2,52 @@
 
 ## Overview
 
-$AIS is the native utility token of the AISYNC Project, designed to create a sustainable ecosystem that rewards users and aligns incentives across the platform.
+$AIS is the native token of the AISYNC Project, aimed at building a sustainable ecosystem that rewards users and aligns interests across the platform.
 
-> Contract Address: pump Solana Network
+<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  gap: '1rem',
+  padding: '0.75rem 1rem',
+  margin: '1rem 0',
+  backgroundColor: 'rgba(0, 0, 0, 0.2)',
+  borderRadius: '0.75rem',
+  fontSize: '0.875rem',
+}}>
+  <span style={{ color: 'var(--fg-light)' }}>Contract Address:</span>
+  <code 
+    style={{ 
+      color: 'var(--fg)',
+      fontFamily: 'monospace',
+      cursor: 'pointer',
+      transition: 'opacity 0.2s ease',
+    }}
+    onClick={() => {
+      navigator.clipboard.writeText('0x0000000000000000000000000000000000000000');
+    }}
+    onMouseEnter={(e) => {
+      e.target.style.opacity = '0.7';
+      e.target.title = 'Click to copy';
+    }}
+    onMouseLeave={(e) => {
+      e.target.style.opacity = '1';
+    }}
+  >coming soon</code>
+  <span style={{ 
+    marginLeft: 'auto',
+    color: 'var(--fg-light)',
+    fontSize: '0.75rem' 
+  }}>Solana Network</span>
+</div>
 
 
 ## Distribution
+
+
+In the proposed tokenomics model for the project, the allocation of tokens is strategically designed to foster a broad and fair distribution, ensure long-term operational sustainability, and incentivize community participation. Here's a detailed breakdown:
+
+1. **Fair Launch (80%):** The majority of the tokens, comprising 80% of the total supply, are earmarked for a fair launch. This approach is intended to democratize access to the tokens, ensuring that a wide range of participants can acquire them without pre-sale advantages or allocations to insiders. This method supports the project's commitment to equitable distribution and aims to cultivate a robust and diverse community of stakeholders.
+2. **Behavioral Incentives (17%):** To encourage on-chain users to engage in Agent development, we have dedicated 17% of our tokens as rewards for those participating in AI data feeding. This incentive is essential as it helps maintain the richness and vertical efficiency of our system's data and more effectively and accurately aggregates user demands.
+3. **Project Fund (3%):** A smaller portion, 3% of the total token supply, is set aside for the project fund. These funds are utilized to support ongoing development, marketing, partnerships, and other operational needs. This allocation ensures that the project can sustain its growth and innovation over time, adapting to new challenges and opportunities in the blockchain space. The project fund is also essential for financing community initiatives, educational programs, and outreach efforts to increase adoption and user engagement.
+
+Overall, this token distribution strategy is designed to balance the need for fair access with the necessity of incentivizing contributions and ensuring the project's long-term viability. By allocating the majority of tokens to a fair launch, the project underscores its commitment to fairness and inclusivity. Meanwhile, the strategic reserve for mining and the project fund allows for the necessary support and incentivization to maintain and expand the ecosystem.
